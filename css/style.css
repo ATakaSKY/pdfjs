@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .navigate{
     padding: 1rem;
     background: #000;
@@ -24,6 +28,12 @@
     margin: 0 auto;
     text-align: center;
     background: #ccc;
+}
+
+#the-canvas{
+    width: 80%;
+    height: 100%;
+
 }
 
 .error-message{
